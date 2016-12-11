@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+/*顶部导航*/
+#header-nav {
+	height: 40px;
+	background: #333;
+}
+
+#header-nav a {
+	color: #b0b0b0;
+}
+
+#header-nav a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+#header-nav .wrapper {
+	width: 1226px;
+	margin: 0 auto;
+	height: 40px;
+	line-height: 40px;
+}
+
+/*顶部左侧导航*/
+#header-nav .wrapper .nav-left {
+	float: left;
+}
+
+#header-nav .wrapper .nav-left a {
+	margin-right: 30px;
+}
+
+/*顶部右侧导航*/
+#header-nav .wrapper .nav-right {
+	float: right;
+}
+
+#header-nav .wrapper .nav-right a {
+	display: block;
+	padding: 0 10px;	
+	float: left;
+}
+
+#header-nav .wrapper .nav-right .shop {
+	background: #434343;
+	position: relative;
+	float: left;
+}
+
+#header-nav .wrapper .nav-right .shop a:hover {
+	background: #fff;
+	color: #ff6700;
+}
+
+#header-nav .shop .shop-box {
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	text-align: center;
+	line-height: 200px;
+	border: 1px solid #ccc;
+	top:40px;
+	right: 0px;
+	display: none;
+	background: #fff;
+}
+
+#header-nav .shop:hover .shop-box {
+	display: block;
+}
+
+/*主导航开始*/
+#nav-main {
+	width: 1226px;
+	height: 55px;
+	margin: 0 auto;	
+	margin-top: 25px;
+	line-height: 55px;
+}
+
+#nav-main .logo {
+	height: 55px;
+	float: left;
+}
+
+#nav-main img {
+	vertical-align: middle;
+}
+
+#nav-main ul {
+	float: left;
+	margin-left: 50px;
+}
+
+#nav-main ul li {
+	float: left;
+	margin-left: 30px;
+}
+
+#nav-main ul li a {
+	font-size: 16px;
+	display: block;	
+}
+
+#nav-main ul li a:hover {
+	color:#ff6700;
+	text-decoration: none;
+}
+
+#nav-main .search {
+	width: 260px;
+	height: 55px;
+	float: right;	
+}
+
+#nav-main .search input {
+	border:none;
+	outline: none;
+	border:1px solid #ccc;
+	height: 51px;
+	display: block;
+	width: 203px;
+	background: url(../images/u3009.png) no-repeat right center;
+	background-size: 55px;
+	padding-right: 55px;
+	font-size: 18px;
+}
